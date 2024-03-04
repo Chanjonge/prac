@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'NotoSerifCJKKRBlack';
+    src: url('NotoSerifCJKKRBlack.eot');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKKRSemiBold';
+    src: url('NotoSerifCJKKRSemiBold.eot');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKKR';
+    src: url('NotoSerifCJKKR.eot');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKKRMedium';
+    src: url('NotoSerifCJKKRMedium.eot');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKKRExtraLight';
+    src: url('NotoSerifCJKKRExtraLight.eot');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKKRBold';
+    src: url('NotoSerifCJKKRBold.eot');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerifCJKKRLight';
+    src: url('NotoSerifCJKKRLight.eot');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

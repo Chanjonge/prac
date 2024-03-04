@@ -1,0 +1,512 @@
+<? 
+include_once('./_common.php'); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Type 1</title>
+    <meta name="description" content="밀양 키즈풀빌라, 자쿠지 방갈로, 캠핑 방갈로, 원목주방 놀이공간, 미술 놀이공간, 대형 수영장, 모래놀이터, 바베큐">
+    <meta name="keywords" content="경남, 밀양, 키즈 풀빌라, 암새들 워터캠프, 암새들워터캠프, 펜션, 자쿠지, 방갈로, 캠핑, 미술놀이, 수영장, 놀이터, 바베큐, 밀양 우주천문대, 아리랑 대공원, 암새들 공원, 용평터널, 위양지 위양못, 영남루">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="해브솔 캠프">
+    <meta property="og:description" content="밀양 키즈풀빌라, 자쿠지 방갈로, 캠핑 방갈로, 원목주방놀이공간, 미술놀이 공간, 대형 수영장, 모래놀이터, 바베큐">
+    <meta property="og:image" content="http://www.havesol.kr/html/gallery/main/13.jpg">
+    <meta property="og:url" content="http://www.havesol.kr">
+    <link rel="canonical" href="http://www.havesol.kr">   
+
+    <?php include('include/meta.php'); ?>
+    <meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/swiper.css">
+<link rel="stylesheet" href="https://use.typekit.net/uct0ikt.css">
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Lato:wght@100;300;400;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/a-auto-signature" rel="stylesheet">
+<!--[if lte IE 8]>
+    <script src="js/html5shiv.js"></script>
+<![endif]-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/jquery.scrollme.js"></script>
+<script src="js/jquery.instagramFeed.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/frontend.js"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<!--폰트어썸-->
+<script src="https://kit.fontawesome.com/664033e5f8.js" crossorigin="anonymous"></script>
+<!--폰트어썸-->
+
+<!--떠나요 요금연동 코드 시작-->
+<link rel="StyleSheet" href='//www.ddnayo.com/api/script.css' type="text/css" />
+    <script type="text/javascript" id="ddnayoapi" src="//www.ddnayo.com/api/script.aspx?apiuser=alwaysdesign" charset="utf-8"></script>
+<!--떠나요 요금연동 코드 끝-->
+</head>
+<body>
+    <div class="wrapper main-wrap">     
+        <?php
+        include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어		
+		include G5_PLUGIN_PATH."/popup/popup_source.php";  
+	    ?>
+
+        <?php include("include/header.php"); ?>
+        <header class="hd">
+            <div class="logo">
+                <a href="index.html"><img src="img/common/logo_white.png" alt="해브솔캠프"></a>
+            </div>
+            
+                <div class="menu-btn">
+                    <div class="btn">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                    </div>
+                </div>
+            
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <h2>preview</h2>
+                        <ul class="sub-menu room1-menu">
+                            <li><a href="sub1_room1_outside.html">View</a></li>
+                            <li><a href="sub1_room1_inside.html">Tour</a></li>
+                            <li><a href="sub1_room1_special.html">Location</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>rooms</h2>
+                        <ul class="sub-menu room2-menu long">
+                            <li><a href="sub2_room2_inside1.html">Ador</a></li>
+                            <li><a href="sub2_room2_inside2.html">Luminance</a></li>
+                            <li><a href="sub2_room2_inside3.html">Embrace</a></li>
+                            <li><a href="sub2_room2_inside4.html">Moodrode</a></li>           
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>special</h2>
+                        <ul class="sub-menu room3-menu">
+                            <li><a href="sub3_room3_1.html">Tent Zone</a></li>
+                            <li><a href="sub3_room3_2.html">Picnic</a></li>
+                             <li><a href="sub3_outdoor3.html">bbq</a></li>                     
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>reservation</h2>
+                        <ul class="sub-menu special-menu">
+                            <li><a href="sub4_outdoor1.html">Camping</a></li>
+                            <li><a href="sub4_outdoor2.html">pool</a></li>
+                             <li><a href="sub3_outdoor3.html">Bbq<a></li>                     
+                        </ul>
+                    </li>
+                  
+                </ul>
+            
+                <div class="sns-box">
+                    <ul>
+                        <li><a href=""><i class="fa-sharp fa-light fa-bell-concierge"></i></a> </li>
+                        <li><a href=""><i class="fa-light fa-n"></i></a> </li>
+                        <li><a href=""><i class="fa-light fa-b"></i></a> </li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a> </li>
+                    </ul>
+                </div>   
+            </nav> 
+            <div class="hd-btn">
+                <a href="" class="reser_btn"><i class="fa-sharp fa-light fa-bell-concierge"></i></a>
+                <p class="reser_txt">실시간 예약</p>
+            </div>
+            <div class="hd-btn">
+                <a href="" class="reser_btn"><i class="fa-light fa-n"></i></a>
+                <p class="reser_txt">네이버 예약</p>
+            </div>
+            
+            
+        </header>
+        <main>
+           
+           
+            <section class="con1 full-page">
+                <div class="main-slide-wrap">
+                    <figure class="main-slide">
+                        <!-- <div class="slide vdo-wrap">                        
+                            <div class="full-page">                        
+                                <iframe src="https://player.vimeo.com/video/806618786?autoplay=1&loop=1&title=0&byline=0&portrait=0&background=0&muted=1" style="z-index:1;width:100%;height:100%;overflow:hidden;" frameborder="0" allow="autoplay;loop fullscreen" allowfullscreen></iframe>
+                            </div>                            
+                        </div> -->
+                        <div class="slide slide1" style="background-image: url(img/gallery/main/1.png);"></div>
+                        <div class="slide slide2" style="background-image: url(img/gallery/main/2.jpg);"></div>
+                        <!-- <div class="slide slide3" style="background-image: url(img/gallery/main/3.jpg);"></div>                        
+                        <div class="slide slide4" style="background-image: url(img/gallery/main/4.jpg);"></div>
+                        <div class="slide slide5" style="background-image: url(img/gallery/main/5.jpg);"></div>
+                        <div class="slide slide6" style="background-image: url(img/gallery/main/6.jpg);"></div>
+                        <div class="slide slide7" style="background-image: url(img/gallery/main/7.jpg);"></div>
+                        <div class="slide slide8" style="background-image: url(img/gallery/main/8.jpg);"></div>
+                        <div class="slide slide9" style="background-image: url(img/gallery/main/9.jpg);"></div>
+                        <div class="slide slide10" style="background-image: url(img/gallery/main/10.jpg);"></div>
+                        <div class="slide slide11" style="background-image: url(img/gallery/main/11.jpg);"></div>
+                        <div class="slide slide12" style="background-image: url(img/gallery/main/12.jpg);"></div>
+                        <div class="slide slide13" style="background-image: url(img/gallery/main/13.jpg);"></div>
+                        <div class="slide slide14" style="background-image: url(img/gallery/main/14.jpg);"></div>
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/15.jpg);"></div>                        
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/16.jpg);"></div>                        
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/17.jpg);"></div>                        
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/18.jpg);"></div>                        
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/19.jpg);"></div>                        
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/20.jpg);"></div>                         
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/21.jpg);"></div>                         
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/22.jpg);"></div>                         
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/23.jpg);"></div>                         
+                        <div class="slide slide15" style="background-image: url(img/gallery/main/24.jpg);"></div>    
+                        <div class="slide slide25" style="background-image: url(img/gallery/main/25.jpg);"></div>
+                        <div class="slide slide26" style="background-image: url(img/gallery/main/26.jpg);"></div>                      -->
+                    </figure>        
+                                    
+                    
+                
+                    <?php include("include/page_section.php"); ?>
+                    <div class="page-wrap">
+                        
+                        <div class="page">
+                            <p class="page-front">01</p> 
+                            <span class="line"></span>   
+                            <p class="page-last">00</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="m-slide-wrap">
+                    <figure class="m-main-slide">                
+                        <div class="slide slide1" style="background-image: url(img/gallery/main_m/1.png);"></div>
+                        <div class="slide slide2" style="background-image: url(img/gallery/main_m/2.jpg);"></div>
+                        <!-- <div class="slide slide3" style="background-image: url(img/gallery/main_m/3.jpg);"></div>
+                        <div class="slide slide4" style="background-image: url(img/gallery/main_m/4.jpg);"></div>
+                        <div class="slide slide5" style="background-image: url(img/gallery/main_m/5.jpg);"></div>
+                        <div class="slide slide6" style="background-image: url(img/gallery/main_m/6.jpg);"></div>
+                        <div class="slide slide7" style="background-image: url(img/gallery/main_m/7.jpg);"></div>
+                        <div class="slide slide8" style="background-image: url(img/gallery/main_m/8.jpg);"></div>
+                        <div class="slide slide9" style="background-image: url(img/gallery/main_m/9.jpg);"></div>
+                        <div class="slide slide10" style="background-image: url(img/gallery/main_m/10.jpg);"></div>
+                        <div class="slide slide11" style="background-image: url(img/gallery/main_m/11.jpg);"></div>
+                        <div class="slide slide12" style="background-image: url(img/gallery/main_m/12.jpg);"></div>
+                        <div class="slide slide13" style="background-image: url(img/gallery/main_m/13.jpg);"></div>
+                        <div class="slide slide14" style="background-image: url(img/gallery/main_m/14.jpg);"></div>
+                        <div class="slide slide15" style="background-image: url(img/gallery/main_m/15.jpg);"></div>
+                        <div class="slide slide15" style="background-image: url(img/gallery/main_m/16.jpg);"></div>
+                        <div class="slide slide15" style="background-image: url(img/gallery/main_m/17.jpg);"></div>
+                        <div class="slide slide15" style="background-image: url(img/gallery/main_m/18.jpg);"></div> -->
+                    </figure>        
+                                    
+                     <div class="main-tit">                                        
+                        <div class="scroll-box"><h1 class="scroll-tit">HAVESOL</h1></div>   
+                        <div class="scroll-box"><h1 class="scroll-tit">CAMP</h1></div>                 
+                    </div> 
+                
+                    <div class="page-wrap">
+                        <div class="scroll-down"><p>scroll down</p></div>
+                        <div class="page">
+                            <p class="m-page-front">01</p> 
+                            <span class="line"></span>   
+                            <p class="m-page-last">00</p>
+                        </div>
+                        <!-- <div class="slide-btn">
+                            <div class="prev btn">
+                                <i class="fal fa-chevron-left"></i>
+                            </div>
+                            <div class="next btn">
+                                <i class="fal fa-chevron-right"></i>
+                            </div>
+                        </div>             -->
+                    </div>
+                </div>
+            </section>
+            <section class="con2 toMe scrollme">
+                 <div class="bread">
+                    <h3>COVE Serenity poolvilla</h3>
+                </div> 
+                
+                <div class="info">
+                    <div class="left">
+                        <div class="txt-box">
+                            <h2 >Cove Serenity</h2> 
+                            <span class="line scroll-line"></span>   
+                            <p>
+                                시간이 느리게 흐르는 장소<br>
+                                은은한 물결 소리와 함께하는 코브 세레니티 <br>
+                                감각적인 아침이 감성을 깨워드립니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="img-box">
+                            <div class="img scroll-obj1" style="background-image: url(img/main_1.png);"></div>
+                            <div class="img scroll-obj2" style="background-image: url(img/main_2.png);"></div>
+                            <div class="img scroll-obj3" style="background-image: url(img/main_3.png);"></div>
+                        </div>
+                        <p class="txt1"> 평화 속 고요한 아름다움 - 아늑한 장소에서 넓은 바다를 느끼며 힐링해 보세요 - </p>
+                        <p class="txt2"> the tranquil beauty of peace.  Relax while feeling the wide sea in a cozy place, </p>
+                    </div>
+                </div>
+                
+                <section class="room-preview-wrap scrollme">                                
+                   
+                    <div class="tit-box">
+                        <h1 >Private space</h1>
+                        <span class="line scroll-line"></span>
+                    </div>
+
+                    <figure class="slide-wrap">
+                        <div class="slide small">                                                   
+                            <div class="txt-box">
+                                <h3>Ardor</h3>
+                                <p>열정적이고 감성적인 분위기의 객실입니다.</p>
+                            </div> 
+                            <div class="inner-info">
+                                
+                                <a href="sub1_room1_inside.html"><div class="img" style="background-image: url(img/gallery/room_preview/1.jpg);"></div></a>                                      
+                            </div>                           
+                        </div>
+                        <div class="slide long">
+                           
+                            <div class="inner-info">
+                                <a href="sub2_room2_inside1.html"><div class="img" style="background-image: url(img/gallery/room_preview/2.jpg);"></div></a>
+                                <div class="txt-box">
+                                    <h3>Luminance</h3>
+                                    <p>밝은 햇빛이 감싸 따스한 분위기의 객실입니다.</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="slide small">
+                            <div class="txt-box">
+                                <h3>Embrace</h3>
+                                <p>편안하고 환영하는 분위기의 객실입니다. </p>
+                            </div> 
+                            <div class="inner-info">
+                                
+                                <a href="sub2_room2_inside2.html"><div class="img" style="background-image: url(img/gallery/room_preview/3.jpg);"></div></a>
+                                
+                            </div>
+                        </div>
+                        <div class="slide long">
+                            <div class="inner-info">
+                                <a href="sub2_room2_inside3.html"><div class="img" style="background-image: url(img/gallery/room_preview/4.jpg);"></div></a>
+                                <div class="txt-box">
+                                    <h3>Moodrode</h3>
+                                    <p>부드러운 감성과 포근한 분위기의 객실입니다.</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="slide small">
+                            <div class="txt-box">
+                                <h3>Embrace</h3>
+                                <p>편안하고 환영하는 분위기의 객실입니다. </p>
+                            </div> 
+                            <div class="inner-info">
+                                
+                                <a href="sub2_room2_inside2.html"><div class="img" style="background-image: url(img/gallery/room_preview/5.jpg);"></div></a>
+                                 
+                            </div>
+                        </div>
+                        <div class="slide small">
+                            
+                            <div class="inner-info">
+                                
+                                <a href="sub2_room2_inside2.html"><div class="img" style="background-image: url(img/gallery/room_preview/2.jpg);"></div></a>
+                                <div class="txt-box">
+                                    <h3>Embrace</h3>
+                                    <p>편안하고 환영하는 분위기의 객실입니다. </p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                          
+                        <!-- <div class="gauge-wrap">
+                            <div class="gauge"></div>
+                        </div> -->
+                    </figure>                
+                </section>
+
+
+            </section>
+            <section class="video-section">
+                <div class="video-wrap">
+
+                    <!-- <iframe src="https://player.vimeo.com/video/807387222?&autoplay=1&loop=1&autopause=0&title=0&byline=0&portrait=0&background=1&muted=1" style="position:absolute;top:0;left:0;z-index:1;height:56vw;width:100%;overflow:hidden;" frameborder="0" allow="autoplay;loop fullscreen" allowfullscreen></iframe>
+                    
+                    <video src="video/main_video.mp4" style="position:absolute;top:0;left:0;z-index:1;height:100%;width:100%;overflow:hidden;" autoplay muted loop></video>
+                    -->
+
+                    <img src="img/gallery/main/sub-bg.png" alt="">
+
+                    <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+                </div>                
+            </section>
+            <?php include("include/room_preview.php"); ?>
+            <?php include("include/reser.php"); ?>
+            
+
+            <section class="special-preview-wrap scrollme">  
+            <div class="tit-box">
+                <h1 class="scroll-txt">Special Offer</h1>
+                <span class="line scroll-line"></span>
+            </div>                
+            <figure class="slide-wrap">
+                <div class="slide small">                                                   
+                    <div class="inner-info">
+                        <a href="sub1_room1_inside.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/1.jpg);"></div></a>
+                            <h3>Swimming Pool</h3>
+                            <em> View </em>
+                                                                  
+                    </div>                           
+                </div>
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside1.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/2.jpg);"></div></a>
+                            <h3>Barbecue</h3>
+                            <em> View </em>
+                         
+                    </div>
+                </div>
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside2.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/3.jpg);"></div></a>
+                        <h3> Bedding</h3>
+                        <em> View </em>
+                        
+                    </div>
+                </div>
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside4.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/4.jpg);"></div></a>
+                        
+                            <h3>Amenity</h3>
+                            <em> View </em>
+                        
+                    </div>
+                </div>           
+        
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside6.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/5.jpg);"></div></a>
+                        
+                            <h3>캠핑 방갈로 6</h3>
+                            <em> View </em>
+                        
+                    </div>
+                </div>  
+                <div class="slide small">                                                   
+                    <div class="inner-info">
+                        <a href="sub1_room1_inside.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/1.jpg);"></div></a>
+                            <h3>Swimming Pool</h3>
+                            <em> View </em>
+                                                                  
+                    </div>                           
+                </div>
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside1.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/2.jpg);"></div></a>
+                            <h3>Barbecue</h3>
+                            <em> View </em>
+                         
+                    </div>
+                </div>
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside2.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/3.jpg);"></div></a>
+                        <h3> Bedding</h3>
+                        <em> View </em>
+                        
+                    </div>
+                </div>
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside4.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/4.jpg);"></div></a>
+                        
+                            <h3>Amenity</h3>
+                            <em> View </em>
+                        
+                    </div>
+                </div>           
+        
+                <div class="slide small">
+                    <div class="inner-info">
+                        <a href="sub2_room2_inside6.html"><div class="img" style="background-image: url(img/gallery/preview_gallery/5.jpg);"></div></a>
+                        
+                            <h3>캠핑 방갈로 6</h3>
+                            <em> View </em>
+                        
+                    </div>
+                </div>  
+
+         
+                <div class="gauge-wrap">
+                    <div class="gauge"></div>
+                </div>
+            </figure>     
+
+            </section>
+
+
+
+
+
+        </main>
+        <?php include('include/footer.php'); ?>
+        <footer class="ft">
+            <aside class="top">
+                <div class="txt-box">
+                    <ul class="sub-menu">
+                        <li><a href="">prologue </a> </li>
+                        <li><span>&#183;</span></li>
+                        <li><a href="">Rooms</a></li>
+                        <li><span>&#183;</span></li>
+                        <li><a href="">Special</a></li>
+                        <li><span>&#183;</span></li>
+                        <li><a href="">Reservation</a></li>
+                    </ul>
+                </div>
+    
+                <div class="tel-box">
+                    <a href="tel:042-1522-5453">042-1522-5453</a>
+                </div>
+    
+                <div class="address address1"> 
+                    <span><b>주소</b> : 대전광역시 서구 문예로 15, 701호(탄방동)</span>
+                </div>
+    
+                <div class="address address2">
+                    <span><b>사업자번호</b> : 000-00-00000(대표자: 홍길동)</span>
+                    <span><b>농어촌민박신고번호</b> : 00-대전-2024-0000<img alt="" src="img/common/ico_simbol.png"></li>
+                    <span><b>통신판매번호</b> : 제 2024-대전-0000 호</span>
+                    <!-- <span><b>통신판매번호</b> : 2016-전주완산-0251</span> -->
+                </div>  
+    
+                <div class="sns-box">
+                    <ul>
+                        <li><a href=""><i class="fa-sharp fa-light fa-bell-concierge"></i></a> </li>
+                        <li><a href=""><i class="fa-light fa-n"></i></a> </li>
+                        <li><a href=""><i class="fa-light fa-b"></i></a> </li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a> </li>
+                    </ul>
+                </div>   
+    
+            </aside>    
+            <aside class="bottom">
+                <div class="copyright">
+                    <a href="../board/adm" target="_blank" class="log">관리자로그인</a>  <span>Copyright(c) 해브솔캠프 PHOTO&DESIGNED BY<a href="http://www.always-design.com" target="_blank" class="icon-aw_logo_svg">언제나,디자인</a></span>
+                </div>        
+            </aside>
+        </footer>
+    </div>    
+
+
+
+
+
+
+    
+    
+</body>
+</html>
